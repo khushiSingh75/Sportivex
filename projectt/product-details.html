@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blue Printed T-shirt by HRX - Premium quality sportswear for active lifestyle">
+  <meta name="keywords" content="t-shirt, sportswear, HRX, blue, printed, fitness, workout">
+  <title>Blue Printed T-shirt by HRX - Product Details</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header" role="banner">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="index.html" aria-label="Go to home page">Home</a>
+        <a href="products.html" aria-label="Go to products page">Products</a>
+        <a href="about.html" aria-label="Go to about page">About</a>
+        <a href="contact.html" aria-label="Go to contact page">Contact</a>
+        <a href="account.html" aria-label="Go to account page">Account</a>
+        <a href="carts.html" aria-label="View shopping cart">
+          <img src="./image/cart2.png" width="30" height="30" alt="Shopping cart" loading="lazy">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Product Details Section -->
+  <main class="product-detail-container" role="main">
+    <div class="product-details-content product-details-image-content">
+      <!-- Main Product Image -->
+      <img src="./image/tshirt.jpeg" class="product-details-big-img" alt="Blue Printed T-shirt by HRX - Main view" loading="lazy" width="500" height="500">
+
+      <!-- Product Image Gallery -->
+      <div class="product-small-img-wrapper" role="group" aria-label="Product image gallery">
+        <div class="product-details-small-img-container">
+          <img src="./image/tshirt.jpeg" alt="Blue Printed T-shirt - Front view" loading="lazy" width="100" height="100" onclick="changeMainImage(this.src)" style="cursor: pointer;">
+        </div>
+        <div class="product-details-small-img-container">
+          <img src="./image/tee.jpeg" alt="Blue Printed T-shirt - Back view" loading="lazy" width="100" height="100" onclick="changeMainImage(this.src)" style="cursor: pointer;">
+        </div>
+        <div class="product-details-small-img-container">
+          <img src="./image/t11.png" alt="Blue Printed T-shirt - Side view" loading="lazy" width="100" height="100" onclick="changeMainImage(this.src)" style="cursor: pointer;">
+        </div>
+        <div class="product-details-small-img-container">
+          <img src="./image/t12.png" alt="Blue Printed T-shirt - Detail view" loading="lazy" width="100" height="100" onclick="changeMainImage(this.src)" style="cursor: pointer;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Information Section -->
+    <section class="product-details-content product-details-text-content" aria-labelledby="product-title">
+      <nav aria-label="Breadcrumb">
+        <p>Home / T-Shirt</p>
+      </nav>
+      
+      <h1 id="product-title">Blue Printed T-shirt by HRX</h1>
+      <div class="product-price" aria-label="Price: ₹50.00">
+        <h4>₹50.00</h4>
+      </div>
+      
+      <div class="product-options">
+        <label for="size-select" class="visually-hidden">Select size:</label>
+        <select id="size-select" aria-label="Choose product size">
+          <option value="">Select Size</option>
+          <option value="XXL">XXL</option>
+          <option value="XL">XL</option>
+          <option value="L">Large</option>
+          <option value="M">Medium</option>
+          <option value="S">Small</option>
+        </select>
+      </div>
+      
+      <div class="addToCartButtonWrapper">
+        <label for="quantity-input" class="visually-hidden">Quantity:</label>
+        <input type="number" id="quantity-input" value="1" min="1" max="10" aria-label="Product quantity">
+        <a href="carts.html" class="addToCartButton" role="button" aria-label="Add Blue Printed T-shirt to cart">Add to Cart</a>
+      </div>
+      
+      <section class="product-description" aria-labelledby="product-details-heading">
+        <h3 id="product-details-heading">PRODUCT DETAILS</h3>
+        <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- Related Products Section -->
+  <section class="allProductSection" aria-labelledby="related-products-heading">
+    <div class="allProductSectionLabel">
+      <h2 id="related-products-heading">Related Products</h2>
+      <a href="products.html" style="color: #555" aria-label="View more products">View More</a>
+    </div>
+    
+    <!-- Related Products Grid -->
+    <div class="feature-products" style="padding: 0px; margin:unset; max-width: unset;">
+      <div class="product-container" role="grid" aria-label="Related products grid">
+        
+        <article class="product-card" role="gridcell">
+          <a href="product-details.html" class="product-link" aria-label="View details for Black sports lower">
+            <img src="./image/shoes.jpeg" alt="Black sports lower" loading="lazy" width="300" height="300">
+            <h3 class="product-title">Black sports lower</h3>
+            <div class="rating-container" aria-label="5 out of 5 stars">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            </div>
+            <span class="product-pricing" aria-label="Price: ₹50.00">₹50.00</span>
+          </a>
+        </article>
+
+        <article class="product-card" role="gridcell">
+          <a href="product-details.html" class="product-link" aria-label="View details for Blue Printed T-shirt">
+            <img src="./image/tshirt.jpeg" alt="Blue Printed T-shirt" loading="lazy" width="300" height="300">
+            <h3 class="product-title">Blue Printed T-shirt</h3>
+            <div class="rating-container" aria-label="5 out of 5 stars">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            </div>
+            <span class="product-pricing" aria-label="Price: ₹50.00">₹50.00</span>
+          </a>
+        </article>
+
+        <article class="product-card" role="gridcell">
+          <a href="product-details.html" class="product-link" aria-label="View details for Sports pants">
+            <img src="./image/pants.jpeg" alt="Sports pants" loading="lazy" width="300" height="300">
+            <h3 class="product-title">Sports pants</h3>
+            <div class="rating-container" aria-label="5 out of 5 stars">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            </div>
+            <span class="product-pricing" aria-label="Price: ₹50.00">₹50.00</span>
+          </a>
+        </article>
+
+        <article class="product-card" role="gridcell">
+          <a href="product-details.html" class="product-link" aria-label="View details for Track pants">
+            <img src="./image/pant3.jpeg" alt="Track pants" loading="lazy" width="300" height="300">
+            <h3 class="product-title">Track pants</h3>
+            <div class="rating-container" aria-label="5 out of 5 stars">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+              <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            </div>
+            <span class="product-pricing" aria-label="Price: ₹50.00">₹50.00</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer" role="contentinfo">
+    <div class="footerInnerContainer">
+      <div class="footerColumn footerColumn1">
+        <h3>Download our App</h3>
+        <p>Download App for Android and iOS mobile phone</p>
+        <div class="footerStoreContainer">
+          <a href="#" aria-label="Download from App Store">
+            <img src="./image/appStore3.png" alt="Download from App Store" loading="lazy">
+          </a>
+          <a href="#" aria-label="Download from Google Play">
+            <img src="./image/appStore4.png" alt="Download from Google Play" loading="lazy">
+          </a>
+        </div>
+      </div>
+
+      <div class="footerColumn footerColumn2">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#" aria-label="View coupons">Coupons</a></li>
+          <li><a href="#" aria-label="Read blog posts">Blog Post</a></li>
+          <li><a href="#" aria-label="View return policy">Return Policy</a></li>
+          <li><a href="#" aria-label="Join affiliate program">Join Affiliate</a></li>
+        </ul>
+      </div>
+
+      <div class="footerColumn footerColumn3">
+        <h3>Follow us</h3>
+        <ul>
+          <li><a href="#" aria-label="Follow us on Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="Follow us on Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Follow us on YouTube">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Function to change the main product image when clicking on gallery thumbnails
+    function changeMainImage(imageSrc) {
+      const mainImage = document.querySelector('.product-details-big-img');
+      const thumbnails = document.querySelectorAll('.product-details-small-img-container img');
+      
+      // Change the main image source with smooth transition
+      mainImage.style.opacity = '0.7';
+      
+      setTimeout(() => {
+        mainImage.src = imageSrc;
+        mainImage.style.opacity = '1';
+      }, 150);
+      
+      // Remove active class from all thumbnails
+      thumbnails.forEach(thumb => {
+        thumb.style.border = '2px solid transparent';
+        thumb.style.transform = 'scale(1)';
+      });
+      
+      // Add active styling to clicked thumbnail
+      const clickedThumbnail = Array.from(thumbnails).find(thumb => thumb.src === imageSrc);
+      if (clickedThumbnail) {
+        clickedThumbnail.style.border = '2px solid #ff523b';
+        clickedThumbnail.style.transform = 'scale(1.05)';
+      }
+    }
+    
+    // Initialize first thumbnail as active on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const firstThumbnail = document.querySelector('.product-details-small-img-container img');
+      if (firstThumbnail) {
+        firstThumbnail.style.border = '2px solid #ff523b';
+        firstThumbnail.style.transform = 'scale(1.05)';
+      }
+    });
+  </script>
+</body>
+</html>

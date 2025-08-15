@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      background-color: beige;
+      height: 650px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      --primary-color: brown; 
+      /*we can also create custom variables in css(this is accissible only this block but if we want to use this in anywhere we can set this in :root{}) */
+      --custom-width: 330px;
+      background-color: aquamarine;
+      width: var(--custom-width);
+      height: 330px;
+      border: 1px solid brown;
+      margin: 5px;
+      padding: 5px;
+      /*box-shadow: -10px 20px brown;
+      box-shadow: x-offset y-offset color. If we specify that the x-axis is -10 then it change in left direction */
+
+      /*box-shadow: 10px 15px 5px rgb(14, 160, 111); with blur parameter*/
+
+     /* box-shadow:10px 15px 5px 10px rgb(12, 170, 117) ; with spread radius*/
+
+     /*box-shadow: inset 10px 15px rgb(13, 170, 227);  if we want the shadow but inside the box*/
+
+     /* box-shadow: 10px 15px rgb(23, 233, 163), 15px 8px greenyellow;*/
+    }
+    #head{
+      text-shadow: 12px 3px 1px grey;
+    }
+    img{
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="./programming or technical background icon for CS students.png">
+      <h2 id="head">Welecome to codeWorld.</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae iusto ducimus, a fugit neque ipsum officiis, vero tenetur laudantium harum, eum nam alias. Odit.</p>
+    </div>
+  </div>
+</body>
+</html>

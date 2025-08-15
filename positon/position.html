@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      border: 1px solid black;
+      height: 1000px;
+      background: aqua;
+    }
+    img{
+      margin: 10px;
+    }
+    .img2{
+      /*relative: when we work with relative positioning we position object relative with current window
+      four properties- top,left,right,bottom
+      gap is still maintained.*/
+      position: relative;
+      position: absolute; 
+      top:20px;
+
+      /*position: absolute; 
+      top:100px;
+      when we apply absolute property it will overlap and other elements are shifted  and gap not maintained, relative to its closest positioned ancestors*/
+    }
+    .img4{
+      position:fixed;
+    }
+    .img3{
+      position: sticky;
+      top: 100px;
+    }
+    .box{
+      background-color: gainsboro;
+      height : 1000px;
+    }
+    /*by default position is static. */
+  </style>
+</head>
+<body>
+  <div>
+    <img src="./img1.jpg" width="140px" height="140px" class="img1" alt="img1">
+    <img src="./img2.jpg" width="140px" height="140px" class="img2" alt="img2">
+    <img src="./img3.jpg" width="140px" height="140px" class="img3" alt="img3">
+    <img src="./img4.jpg" width="140px" height="140px" class="img4" alt="img4">
+  </div>
+  <div class="box"></div>
+</body>
+</html>
