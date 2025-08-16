@@ -1,4 +1,5 @@
-# 🛍️ Sportivex
+# 🛍️ Sportivex [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://khushiSingh75.github.io/Sportivex/)
+
 
 Sportivex is a stylish e-commerce website focused on **sportswear** 👟  
 Built using HTML, CSS, and JavaScript, it features a clean user interface and intuitive shopping experience.
