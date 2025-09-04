@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage your RedStore account. Login, register, view orders, and update your profile information.">
+    <meta name="keywords" content="account, login, register, profile, orders, dashboard, user">
+    <title>My Account - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new-pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-items">
+                    <a href="index.html" aria-label="Home">Home</a>
+                    <a href="products.html" aria-label="Products">Products</a>
+                    <a href="about.html" aria-label="About Us">About</a>
+                    <a href="contact.html" aria-label="Contact Us">Contact</a>
+                    <a href="account.html" aria-label="My Account" aria-current="page">Account</a>
+                </div>
+                <a href="carts.html" aria-label="Shopping Cart">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+                <label for="menu-toggle" class="menu-icon" aria-label="Menu">
+                    <img src="./image/menu.png" alt="Menu" width="30" height="30">
+                </label>
+            </nav>
+            <input type="checkbox" id="menu-toggle">
+            <div class="hidden-nav-item">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Account Hero Section -->
+        <section class="account-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>My Account</h1>
+                    <p>Manage your profile, view orders, and update your preferences.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Login/Register Section -->
+        <section class="auth-section">
+            <div class="container">
+                <div class="auth-container">
+                    <!-- Login Form -->
+                    <div class="auth-form login-form">
+                        <h2>Login</h2>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="login-email">Email Address *</label>
+                                <input type="email" id="login-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="login-password">Password *</label>
+                                <input type="password" id="login-password" name="password" required>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="remember">
+                                    Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="auth-btn">Login</button>
+                        </form>
+                        <p class="auth-link">
+                            <a href="#" aria-label="Forgot Password">Forgot Password?</a>
+                        </p>
+                    </div>
+
+                    <!-- Register Form -->
+                    <div class="auth-form register-form">
+                        <h2>Register</h2>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="register-name">Full Name *</label>
+                                <input type="text" id="register-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-email">Email Address *</label>
+                                <input type="email" id="register-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-password">Password *</label>
+                                <input type="password" id="register-password" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-confirm-password">Confirm Password *</label>
+                                <input type="password" id="register-confirm-password" name="confirm_password" required>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="terms" required>
+                                    I agree to the <a href="#" aria-label="Terms and Conditions">Terms & Conditions</a>
+                                </label>
+                            </div>
+                            <button type="submit" class="auth-btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Section (Hidden by default, shown after login) -->
+        <section class="dashboard-section" style="display: none;">
+            <div class="container">
+                <div class="dashboard-header">
+                    <h2>Welcome back, John!</h2>
+                    <p>Here's what's happening with your account.</p>
+                </div>
+
+                <div class="dashboard-grid">
+                    <!-- Profile Card -->
+                    <div class="dashboard-card profile-card">
+                        <div class="card-header">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                            <h3>Profile Information</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="profile-info">
+                                <p><strong>Name:</strong> John Doe</p>
+                                <p><strong>Email:</strong> john.doe@example.com</p>
+                                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                                <p><strong>Member Since:</strong> January 2024</p>
+                            </div>
+                            <button class="edit-btn">Edit Profile</button>
+                        </div>
+                    </div>
+
+                    <!-- Recent Orders Card -->
+                    <div class="dashboard-card orders-card">
+                        <div class="card-header">
+                            <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                            <h3>Recent Orders</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="order-item">
+                                <div class="order-info">
+                                    <h4>Order #RS-2024-001</h4>
+                                    <p>Status: <span class="status delivered">Delivered</span></p>
+                                    <p>Date: Jan 15, 2024</p>
+                                </div>
+                                <div class="order-total">
+                                    <p>$299.99</p>
+                                </div>
+                            </div>
+                            <div class="order-item">
+                                <div class="order-info">
+                                    <h4>Order #RS-2024-002</h4>
+                                    <p>Status: <span class="status processing">Processing</span></p>
+                                    <p>Date: Jan 20, 2024</p>
+                                </div>
+                                <div class="order-total">
+                                    <p>$149.99</p>
+                                </div>
+                            </div>
+                            <a href="#" class="view-all-btn">View All Orders</a>
+                        </div>
+                    </div>
+
+                    <!-- Wishlist Card -->
+                    <div class="dashboard-card wishlist-card">
+                        <div class="card-header">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                            <h3>Wishlist</h3>
+                        </div>
+                        <div class="card-content">
+                                                         <div class="wishlist-item">
+                                 <img src="./image/watch.jpeg" alt="Smart Watch" width="60" height="60" loading="lazy">
+                                 <div class="wishlist-info">
+                                     <h4>Smart Watch</h4>
+                                     <p>$299.99</p>
+                                 </div>
+                                 <button class="add-to-cart-btn">Add to Cart</button>
+                             </div>
+                             <div class="wishlist-item">
+                                 <img src="./image/shoes.jpeg" alt="Running Shoes" width="60" height="60" loading="lazy">
+                                 <div class="wishlist-info">
+                                     <h4>Running Shoes</h4>
+                                     <p>$199.99</p>
+                                 </div>
+                                 <button class="add-to-cart-btn">Add to Cart</button>
+                             </div>
+                            <a href="#" class="view-all-btn">View All Wishlist</a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions Card -->
+                    <div class="dashboard-card actions-card">
+                        <div class="card-header">
+                            <i class="fas fa-cog" aria-hidden="true"></i>
+                            <h3>Quick Actions</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="action-buttons">
+                                <a href="#" class="action-btn">
+                                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                                    View Cart
+                                </a>
+                                <a href="#" class="action-btn">
+                                    <i class="fas fa-heart" aria-hidden="true"></i>
+                                    My Wishlist
+                                </a>
+                                <a href="#" class="action-btn">
+                                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                    Address Book
+                                </a>
+                                <a href="#" class="action-btn">
+                                    <i class="fas fa-credit-card" aria-hidden="true"></i>
+                                    Payment Methods
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footerInnerContainer">
+            <div class="footerColumn footerColumn1">
+                <h3>RedStore</h3>
+                <p>Your trusted destination for quality products and exceptional service. We're committed to bringing you the best shopping experience.</p>
+                <div class="footerStoreContainer">
+                    <img src="./image/appStore4.png" alt="Download on Google Play" width="140" height="40">
+                    <img src="./image/appStore3.png" alt="Download on App Store" width="140" height="40">
+                </div>
+            </div>
+            <div class="footerColumn footerColumn2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#" aria-label="View coupons">Coupons</a></li>
+                    <li><a href="#" aria-label="Read blog posts">Blog Post</a></li>
+                    <li><a href="#" aria-label="View return policy">Return Policy</a></li>
+                    <li><a href="#" aria-label="Join affiliate program">Join Affilate</a></li>
+                </ul>
+            </div>
+            <div class="footerColumn footerColumn3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#" aria-label="Follow us on Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="Follow us on Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="Follow us on YouTube">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2024 RedStore. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

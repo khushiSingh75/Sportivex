@@ -1,0 +1,853 @@
+Merged remote changes from origin/main into local main branch to sync updates
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite Gear for Elite Athletes - Premium sportswear engineered for excellence, designed for champions">
+  <meta name="keywords" content="sportswear, athletic gear, fitness clothing, sports equipment, elite athletes">
+  <title>Elite Gear for Elite Athletes - Sports & Fitness Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header" role="banner">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Main navigation">     
+        <div class="nav-items">
+          <a href="index.html" aria-current="page" aria-label="Go to home page">Home</a>
+          <a href="products.html" aria-label="Go to products page">Products</a>
+          <a href="about.html" aria-label="Go to about page">About</a>
+          <a href="contact.html" aria-label="Go to contact page">Contact</a>
+          <a href="account.html" aria-label="Go to account page">Account</a>
+        </div>
+        <a href="carts.html" aria-label="View shopping cart">
+          <img src="./image/cart2.png" width="30" height="30" alt="Shopping cart" loading="lazy">
+        </a>
+        <label for="menu-toggle" aria-label="Toggle mobile menu">
+          <img class="menu-icon" src="./image/menu.png" alt="Menu icon" loading="lazy">
+        </label>
+      </nav>
+      
+      <input type="checkbox" id="menu-toggle" class="hidden-nav-toggle">
+
+      <div class="hidden-nav-item" role="navigation" aria-label="Mobile navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="product1.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="headerContent" aria-labelledby="hero-heading">
+        <div class="headerContentItem">
+          <h1 id="hero-heading">Elite Gear for <br>Elite Athletes</h1>
+          <p>Where performance meets style. Experience sportswear <br>engineered for excellence, designed for champions.</p>
+        </div>
+        <div class="headerContentItem">
+          <img src="./image/download.png" alt="Elite athlete in sportswear" loading="lazy" width="500" height="400">
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <!-- Categories Section -->
+  <section class="categories" aria-labelledby="categories-heading">
+    <h2 id="categories-heading" class="visually-hidden">Product Categories</h2>
+    <div class="container">
+      <img src="./image/t19.png" alt="Men's sportswear category" loading="lazy" width="300" height="200">
+      <img src="./image/shoes3.jpg" alt="Sports shoes category" loading="lazy" width="300" height="200">
+      <img src="./image/t18.png" alt="Women's sportswear category" loading="lazy" width="300" height="200">
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="feature-products" aria-labelledby="featured-products-heading">
+    <h2 id="featured-products-heading">Featured Products</h2>
+    <div class="customUnderline">
+      <div class="customUnderlineItem"></div>
+    </div>
+    <div class="product-container" role="grid" aria-label="Featured products grid">
+      
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't12')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Black Sports Lower">
+          <img src="./image/t12.png" alt="Black Sports Lower" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Black Sports Lower</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹499.00">₹499.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't11')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Performance Tee">
+          <img src="./image/t11.png" alt="Performance Tee" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Performance Tee</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹399.00">₹399.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't16')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Running Shoes">
+          <img src="./image/t16.png" alt="Running Shoes" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Running Shoes</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹1,299.00">₹1,299.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't17')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Black Sports Lower">
+          <img src="./image/t17.png" alt="Black Sports Lower" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Black Sports Lower</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹499.00">₹499.00</span>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Latest Products Section -->
+  <section class="feature-products" aria-labelledby="latest-products-heading">
+    <h2 id="latest-products-heading">Latest Products</h2>
+    <div class="customUnderline">
+      <div class="customUnderlineItem"></div>
+    </div>
+    <div class="product-container" role="grid" aria-label="Latest products grid">
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'gym-trainer')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Women Sport's bra">
+          <img src="./image/gym trainer.png" alt="Women Sport's bra" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Women Sport's bra</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹799.00">₹799.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('gym-trainer')" aria-label="Add Women Sport's bra to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'shorts')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Sports Shorts">
+          <img src="./image/shorts.png" alt="Sports Shorts" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Sports Shorts</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹299.00">₹299.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('shorts')" aria-label="Add Sports Shorts to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'sport')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Sports Jersey">
+          <img src="./image/sport.png" alt="Sports Jersey" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Sports Jersey</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹599.00">₹599.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('sport')" aria-label="Add Sports Jersey to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't1')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Women's Sportswear">
+          <img src="./image/t1.png" alt="Women's Sportswear" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Women's Sportswear</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹899.00">₹899.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('t1')" aria-label="Add Women's Sportswear to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't21')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Running Shoes">
+          <img src="./image/t21.png" alt="Running Shoes" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Running Shoes</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹1,299.00">₹1,299.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('t21')" aria-label="Add Running Shoes to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'women')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Performance Tee">
+          <img src="./image/women.png" alt="Performance Tee" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Performance Tee</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹399.00">₹399.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('women')" aria-label="Add Performance Tee to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't5')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Black Sports Lower">
+          <img src="./image/t5.png" alt="Black Sports Lower" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Black Sports Lower</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹499.00">₹499.00</span>
+        </a>
+        <button class="add-to-cart-btn" onclick="addToCart('t5')" aria-label="Add Black Sports Lower to cart">
+          Add to Cart
+        </button>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't2')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Sports Shorts">
+          <img src="./image/t2.png" alt="Sports Shorts" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Sports Shorts</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹299.00">₹299.00</span>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- All Products Section -->
+  <section class="feature-products" aria-labelledby="all-products-heading">
+    <h2 id="all-products-heading">All Products</h2>
+    <div class="customUnderline">
+      <div class="customUnderlineItem"></div>
+    </div>
+    <div class="product-container" role="grid" aria-label="All products grid">
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'menwear')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Men's Sportswear">
+          <img src="./image/menwear.png" alt="Men's Sportswear" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Men's Sportswear</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹799.00">₹799.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'shorts')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Sports Shorts">
+          <img src="./image/shorts.png" alt="Sports Shorts" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Sports Shorts</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹299.00">₹299.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'women')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Women's Sportswear">
+          <img src="./image/women.png" alt="Women's Sportswear" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Women's Sportswear</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹399.00">₹399.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 'sport')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Sports Jersey">
+          <img src="./image/sport.png" alt="Sports Jersey" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Sports Jersey</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹599.00">₹599.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't8')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Men's Track Pants">
+          <img src="./image/t8.png" alt="Men's Track Pants" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Men's Track Pants</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹499.00">₹499.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't9')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Men's Joggers">
+          <img src="./image/t9.png" alt="Men's Joggers" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Men's Joggers</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹549.00">₹549.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't7')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Men's Slim Fit Lower">
+          <img src="./image/t7.png" alt="Men's Slim Fit Lower" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Men's Slim Fit Lower</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹479.00">₹479.00</span>
+        </a>
+      </article>
+
+      <article class="product-card" role="gridcell">
+        <div class="wishlist-heart" onclick="toggleWishlist(this, 't10')" aria-label="Add to wishlist" role="button" tabindex="0">
+          <span class="heart-icon">🤍</span>
+        </div>
+        <a href="product-details.html" class="product-link" aria-label="View details for Grey Sports Shoes">
+          <img src="./image/t10.png" alt="Grey Sports Shoes" loading="lazy" width="300" height="300">
+          <h3 class="product-title">Grey Sports Shoes</h3>
+          <div class="rating-container" aria-label="5 out of 5 stars">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+            <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          </div>
+          <span class="product-pricing" aria-label="Price: ₹1,299.00">₹1,299.00</span>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Smart Watch Banner Section -->
+  <section class="smart-watch-banner" aria-labelledby="smart-watch-heading">
+    <div class="container">
+      <div class="smart-watch-img-container">
+        <img src="image/watch.jpeg" alt="Smart Band 4 smartwatch" loading="lazy" width="400" height="400">
+      </div>
+      <div class="smart-watch-content">
+        <span class="smart-watch-banner-title">Exclusively Available on store</span>
+        <h1 id="smart-watch-heading" class="smart-watch-banner-Subtitle">Smart Band 4</h1>
+        <p class="smart-watch-banner-description">Stay connected, stay fit. Discover the future of wearable technology with our latest smart watch collection.</p>
+        <button class="buyNowButton" aria-label="Buy Smart Band 4 now">Buy Now &#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonialsParentContainer" aria-labelledby="testimonials-heading">
+    <h2 id="testimonials-heading" class="visually-hidden">Customer Testimonials</h2>
+    <div class="testimonialInnerContainer">
+
+      <article class="testimonialCard">
+        <blockquote class="testimonialContent">
+          "I've tried dozens of yoga pants, but these are next-level. Stretchy, soft, and they stay in place during every pose. I even wear them casually — they're that comfy!"
+        </blockquote>
+        <div class="ratings" aria-label="4.5 out of 5 stars">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/half star.png" alt="half star" width="15" height="15">
+        </div>
+        <img src="image/gym trainer.png" alt="Priya Mehta, Yoga Instructor" class="userImage" loading="lazy" width="60" height="60">
+        <h3>— Priya Mehta, Yoga Instructor</h3>
+      </article>
+
+      <article class="testimonialCard">
+        <blockquote class="testimonialContent">
+          "These leggings are a game-changer! Super breathable and flexible — perfect for my morning runs. I've never felt more confident in my workout gear!"
+        </blockquote>
+        <div class="ratings" aria-label="5 out of 5 stars">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+        </div>
+        <img src="image/menfeed.jpeg" alt="Jean Rose, Fitness Enthusiast" class="userImage" loading="lazy" width="60" height="60">
+        <h3>— Jean Rose, Fitness Enthusiast</h3>
+      </article>
+
+      <article class="testimonialCard">
+        <blockquote class="testimonialContent">
+          "I ordered the performance tee and joggers — the fit is amazing and the fabric feels premium. Great value for money and fast delivery!"
+        </blockquote>
+        <div class="ratings" aria-label="5 out of 5 stars">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+          <img src="./image/star1.jpeg" alt="star" width="15" height="15">
+        </div>
+        <img src="image/girl1.jpeg" alt="Alex Carter, Gym Trainer" class="userImage" loading="lazy" width="60" height="60">
+        <h3>— Alex Carter, Gym Trainer</h3>
+      </article>
+    </div>
+
+    <!-- Branding Section -->
+    <section class="brandingContainer" aria-labelledby="brands-heading">
+      <h2 id="brands-heading" class="visually-hidden">Our Brand Partners</h2>
+      <div class="brandingInner">
+        <img src="image/patagonia.png" alt="Patagonia brand logo" loading="lazy" width="150" height="60">
+        <img src="image/puma.png" alt="Puma brand logo" loading="lazy" width="150" height="60">
+        <img src="image/nike.png" alt="Nike brand logo" loading="lazy" width="150" height="60">
+        <img src="image/adidas.png" alt="Adidas brand logo" loading="lazy" width="150" height="60">
+      </div>
+    </section>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer" role="contentinfo">
+    <div class="footerInnerContainer">
+      <div class="footerColumn footerColumn1">
+        <h3>Download our App</h3>
+        <p>Download App for Android and iOS mobile phone</p>
+        <div class="footerStoreContainer">
+          <a href="#" aria-label="Download from App Store">
+            <img src="image/appStore3.png" alt="Download from App Store" loading="lazy">
+          </a>
+          <a href="#" aria-label="Download from Google Play">
+            <img src="image/appStore4.png" alt="Download from Google Play" loading="lazy">
+          </a>
+        </div>
+      </div>
+
+      <div class="footerColumn footerColumn2">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#" aria-label="View coupons">Coupons</a></li>
+          <li><a href="#" aria-label="Read blog posts">Blog Post</a></li>
+          <li><a href="#" aria-label="View return policy">Return Policy</a></li>
+          <li><a href="#" aria-label="Join affiliate program">Join Affilate</a></li>
+        </ul>
+      </div>
+
+      <div class="footerColumn footerColumn3">
+        <h3>Follow us</h3>
+        <ul>
+          <li><a href="#" aria-label="Follow us on Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="Follow us on Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Follow us on YouTube">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Global image preview modal -->
+  <div id="imagePreviewModal" class="image-preview-modal" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <img id="imagePreviewImg" src="" alt="Preview" />
+  </div>
+
+  <script>
+    // Wishlist management for homepage
+    let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+
+    // Initialize wishlist hearts on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      updateWishlistHearts();
+      updateCartIcon();
+      
+      // Add keyboard support for wishlist hearts
+      const hearts = document.querySelectorAll('.wishlist-heart');
+      hearts.forEach(heart => {
+        heart.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            this.click();
+          }
+        });
+      });
+    });
+
+    // Cart management system
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add to cart functionality
+    function addToCart(productId) {
+      // Check if product already exists in cart
+      const existingItem = cart.find(item => item.id === productId);
+      
+      if (existingItem) {
+        // Increase quantity if already in cart
+        existingItem.quantity += 1;
+        showNotification('Quantity increased!', 'add');
+      } else {
+        // Add new item to cart
+        cart.push({
+          id: productId,
+          quantity: 1
+        });
+        showNotification('Added to cart!', 'add');
+      }
+      
+      // Save to localStorage
+      localStorage.setItem('cart', JSON.stringify(cart));
+      
+      // Update cart icon
+      updateCartIcon();
+    }
+
+    // Update cart icon with item count
+    function updateCartIcon() {
+      const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
+      const cartIcon = document.querySelector('a[href="carts.html"] img');
+      
+      if (cartCount > 0) {
+        // Add cart count badge
+        let badge = document.querySelector('.cart-badge');
+        if (!badge) {
+          badge = document.createElement('span');
+          badge.className = 'cart-badge';
+          badge.style.cssText = `
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: #ff523b;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+          `;
+          cartIcon.parentElement.style.position = 'relative';
+          cartIcon.parentElement.appendChild(badge);
+        }
+        badge.textContent = cartCount;
+      } else {
+        // Remove cart count badge
+        const badge = document.querySelector('.cart-badge');
+        if (badge) {
+          badge.remove();
+        }
+      }
+    }
+
+    // Toggle wishlist functionality
+    function toggleWishlist(heartElement, productId) {
+      const heartIcon = heartElement.querySelector('.heart-icon');
+      const isInWishlist = wishlist.includes(productId);
+      
+      if (isInWishlist) {
+        // Remove from wishlist
+        wishlist = wishlist.filter(id => id !== productId);
+        heartIcon.textContent = '🤍';
+        heartElement.setAttribute('aria-label', 'Add to wishlist');
+        showNotification('Removed from wishlist!', 'remove');
+      } else {
+        // Add to wishlist
+        wishlist.push(productId);
+        heartIcon.textContent = '❤️';
+        heartElement.setAttribute('aria-label', 'Remove from wishlist');
+        showNotification('Added to wishlist!', 'add');
+      }
+      
+      // Save to localStorage
+      localStorage.setItem('wishlist', JSON.stringify(wishlist));
+      
+      // Add animation
+      heartElement.style.transform = 'scale(1.2)';
+      setTimeout(() => {
+        heartElement.style.transform = 'scale(1)';
+      }, 200);
+    }
+
+    // Update wishlist hearts based on stored data
+    function updateWishlistHearts() {
+      const hearts = document.querySelectorAll('.wishlist-heart');
+      hearts.forEach(heart => {
+        const productId = heart.getAttribute('onclick').match(/'([^']+)'/)[1];
+        const heartIcon = heart.querySelector('.heart-icon');
+        
+        if (wishlist.includes(productId)) {
+          heartIcon.textContent = '❤️';
+          heart.setAttribute('aria-label', 'Remove from wishlist');
+        } else {
+          heartIcon.textContent = '🤍';
+          heart.setAttribute('aria-label', 'Add to wishlist');
+        }
+      });
+    }
+
+    // Notification system
+    function showNotification(message, type) {
+      // Remove existing notification
+      const existingNotification = document.querySelector('.notification');
+      if (existingNotification) {
+        existingNotification.remove();
+      }
+      
+      // Create notification
+      const notification = document.createElement('div');
+      notification.className = `notification ${type}`;
+      notification.textContent = message;
+      
+      // Style notification
+      Object.assign(notification.style, {
+        position: 'fixed',
+        top: '20px',
+        right: '20px',
+        background: type === 'add' ? '#4CAF50' : '#f44336',
+        color: 'white',
+        padding: '12px 20px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+        zIndex: '1000',
+        fontSize: '14px',
+        fontWeight: '500',
+        transform: 'translateX(100%)',
+        transition: 'transform 0.3s ease'
+      });
+      
+      document.body.appendChild(notification);
+      
+      // Animate in
+      setTimeout(() => {
+        notification.style.transform = 'translateX(0)';
+      }, 10);
+      
+      // Auto remove
+      setTimeout(() => {
+        notification.style.transform = 'translateX(100%)';
+        setTimeout(() => {
+          if (notification.parentNode) {
+            notification.remove();
+          }
+        }, 300);
+      }, 3000);
+    }
+
+    // Utility: ensure button exists on each product-card
+    function ensureAddToCartButtons() {
+      const cards = document.querySelectorAll('.feature-products .product-container .product-card');
+      cards.forEach(card => {
+        const link = card.querySelector('a.product-link');
+        if (!link) return;
+        // Infer a product id from first image filename (fallback to title)
+        const img = link.querySelector('img');
+        const title = link.querySelector('.product-title');
+        let productId = '';
+        if (img && img.getAttribute('src')) {
+          const src = img.getAttribute('src');
+          const match = src.match(/([\w\-]+)\.(png|jpe?g|webp|gif)$/i);
+          productId = match ? match[1] : (title ? title.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-') : 'item');
+        }
+        if (!card.querySelector('.add-to-cart-btn')) {
+          const btn = document.createElement('button');
+          btn.className = 'add-to-cart-btn';
+          btn.type = 'button';
+          btn.textContent = 'Add to Cart';
+          btn.setAttribute('aria-label', `Add ${title ? title.textContent : 'product'} to cart`);
+          btn.addEventListener('click', () => addToCart(productId));
+          card.appendChild(btn);
+        }
+      });
+    }
+
+    // Image preview wiring
+    function wireImagePreview() {
+      const modal = document.getElementById('imagePreviewModal');
+      const modalImg = document.getElementById('imagePreviewImg');
+      document.querySelectorAll('.feature-products .product-container .product-card img').forEach(img => {
+        img.addEventListener('click', e => {
+          e.preventDefault();
+          modalImg.src = img.src;
+          modal.classList.add('show');
+          modal.setAttribute('aria-hidden', 'false');
+        });
+      });
+      // Close on click outside image or Escape
+      modal.addEventListener('click', e => {
+        if (e.target === modal) {
+          modal.classList.remove('show');
+          modal.setAttribute('aria-hidden', 'true');
+          modalImg.src = '';
+        }
+      });
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && modal.classList.contains('show')) {
+          modal.classList.remove('show');
+          modal.setAttribute('aria-hidden', 'true');
+          modalImg.src = '';
+        }
+      });
+    }
+
+    // Run after DOM ready and after existing wishlist init
+    document.addEventListener('DOMContentLoaded', function() {
+      ensureAddToCartButtons();
+      wireImagePreview();
+    });
+  </script>
+</body>
+</html> 
+
+
+
+    
+
+
+
