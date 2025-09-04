@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    .box{
+      height: 400px;
+      width: 400px;
+      background-color: beige;
+      border: 2px solid black;
+      /*when we only set transition property width then it will only apply property on width(zatke se hota), to apply properties to all set transition-propert: all(smoothy movement)*/
+      /*
+      transition-property: all;       *width height
+      transition-duration: 2s;
+      transition-delay: 2s;
+      transition-timing-function: ease-out;*/
+
+      /*Shorthand notation 
+      transition:transition-property transition-duration transition-timing-function  delay 
+      transition: all 2s 1s ease-in ;*/
+      transition: width 2s, height 4s;
+    }
+    .box:hover{
+      width: 1200px;
+      background-color: aquamarine;
+      height: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
