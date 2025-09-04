@@ -1,6 +1,0 @@
-Change element's from initial state to final state called transition.
-
-transition- single switch or single step(child entity)
-animation- series of complex movement, multiple transitions(parent, super entity)
-
-properties:- transition-property, transition-duration, transition-timing-function, transition-delay

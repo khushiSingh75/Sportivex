@@ -1,2 +1,0 @@
-Transform means to rotate, bigger, scale movement in element
-tranform the element from one form to another
